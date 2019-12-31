@@ -1,0 +1,50 @@
+字符串方法
+以下是java.lang.String类定义的方法列表，可以直接在Scala程序中使用 -
+
+编号	方法	描述
+1	char charAt(int index)	返回指定索引处的字符。
+2	int compareTo(Object o)	将此String与另一个对象进行比较。
+3	int compareTo(String anotherString)	按字典顺序比较两个字符串。
+4	int compareToIgnoreCase(String str)	按字典顺序比较两个字符串，忽略大小写差异。
+5	String concat(String str)	将指定的字符串连接到该字符串的末尾。
+6	boolean contentEquals(StringBuffer sb)	当且仅当此String表示与指定的StringBuffer的字符序列相同时，才返回true。
+7	static String copyValueOf(char[] data)	返回一个字符串，表示指定的数组中的字符序列。
+8	static String copyValueOf(char[] data, int offset, int count)	返回一个字符串，表示指定的数组中的字符序列。
+9	boolean endsWith(String suffix)	测试此字符串是否以指定的字符串为后缀/结尾。
+10	boolean equals(Object anObject)	将此字符串与指定对象进行比较。
+11	boolean equalsIgnoreCase(String anotherString)	将此String与另一个String进行比较，并忽略大小写。
+12	byte getBytes()	使用平台的默认字符集将此String编码为一系列字节，将结果存储到新的字节数组中。
+13	byte[] getBytes(String charsetName)	使用命名的字符集将此String编码为一系列字节，将结果存储到新的字节数组中。
+14	void getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)	将此字符串从srcBegin到srcEnd索引处的字符复制到目标字符数组(dst)中。
+15	int hashCode()	返回此字符串的哈希码。
+16	int indexOf(int ch)	返回指定字符第一次在字符串中出现的索引。
+17	int indexOf(int ch, int fromIndex)	返回指定字符以指定的索引开始搜索第一次在字符串内出现的索引。
+18	int indexOf(String str)	返回指定子字符串在字符串内第一次出现的索引。
+19	int indexOf(String str, int fromIndex)	返回从指定的索引开始，指定子串的第一次出现在给定字符串中的索引。
+20	String intern()	返回字符串对象的规范表示。
+21	int lastIndexOf(int ch)	返回指定字符在字符串中最后一次出现的索引。
+22	int lastIndexOf(int ch, int fromIndex)	返回指定字符在给定字符串中的最后一次出现的索引，它从指定的索引开始向后搜索。
+23	int lastIndexOf(String str)	返回指定子字符串在字符串内的最右边出现的索引。
+24	int lastIndexOf(String str, int fromIndex)	返回指定子字符串在给定字符串中最后一次出现的索引，它从指定索引开始向后搜索。
+25	int length()	返回此字符串的长度。
+26	boolean matches(String regex)	测试这个字符串是否与给定的正则表达式匹配。
+27	boolean regionMatches(boolean ignoreCase, int toffset, String other, int offset, int len)	测试两个字符串区域是否相等。
+28	boolean regionMatches(int toffset, String other, int offset, int len)	测试两个字符串区域是否相等。
+29	String replace(char oldChar, char newChar)	返回一个新的字符串，此字符串是使用newChar替换此字符串中所有出现的oldChar的结果。
+30	String replaceAll(String regex, String replacement	使用replacement替换与给定正则表达式(regex)匹配的字符串中的每个子字符串。
+31	String replaceFirst(String regex, String replacement)	用给定的replacement替换与给定正则表达式(regex)匹配的字符串中的第一个子字符串。
+32	String[] split(String regex)	将此字符串拆分为给定正则表达式的匹配项。
+33	String[] split(String regex, int limit)	将此字符串拆分为给定正则表达式的匹配项。
+34	boolean startsWith(String prefix)	测试此字符串是否以指定的前缀开头。
+35	boolean startsWith(String prefix, int toffset)	测试此字符串是否以指定的前缀开头，指定一个指定的索引。
+36	CharSequence subSequence(int beginIndex, int endIndex)	返回一个新的字符序列，该序列是该序列的子序列。
+37	String substring(int beginIndex)	返回一个新字符串，该字符串是此字符串的子字符串。
+38	String substring(int beginIndex, int endIndex)	返回一个新字符串，该字符串是此字符串的子字符串。
+39	char[] toCharArray()	将此字符串转换为新的字符数组。
+40	String toLowerCase()	使用默认语言环境的规则将此String中的所有字符转换为小写。
+41	String toLowerCase(Locale locale)	使用给定的区域设置的规则将此String中的所有字符转换为小写。
+42	String toString()	此对象(已经是字符串)本身已被返回。
+43	String toUpperCase()	使用默认语言环境的规则将此字符串中的所有字符转换为大写。
+44	String toUpperCase(Locale locale)	使用给定的区域设置的规则将此String中的所有字符转换为大写。
+45	String trim()	返回字符串的副本，省略前导和尾随空格。
+46	static String valueOf(primitive data type x)	返回传递数据类型参数的字符串表示形式。
