@@ -1,0 +1,14 @@
+G:\目标检测\yolo3-keras-master/VOCdevkit/VOC2007/JPEGImages/00.jpg 209,279,300,308,0
+G:\目标检测\yolo3-keras-master/VOCdevkit/VOC2007/JPEGImages/01.jpg 32,111,466,254,0
+G:\目标检测\yolo3-keras-master/VOCdevkit/VOC2007/JPEGImages/02.jpg 104,166,389,259,0
+G:\目标检测\yolo3-keras-master/VOCdevkit/VOC2007/JPEGImages/03.jpg 169,219,329,271,0
+G:\目标检测\yolo3-keras-master/VOCdevkit/VOC2007/JPEGImages/04.jpg 194,194,326,236,0
+G:\目标检测\yolo3-keras-master/VOCdevkit/VOC2007/JPEGImages/05.jpg 120,115,368,193,0 119,202,371,285,0
+G:\目标检测\yolo3-keras-master/VOCdevkit/VOC2007/JPEGImages/06.jpg 207,279,308,306,0
+G:\目标检测\yolo3-keras-master/VOCdevkit/VOC2007/JPEGImages/07.jpg 171,255,314,306,0
+G:\目标检测\yolo3-keras-master/VOCdevkit/VOC2007/JPEGImages/08.jpg 173,150,344,221,0
+G:\目标检测\yolo3-keras-master/VOCdevkit/VOC2007/JPEGImages/09.jpg 201,209,296,239,0
+G:\目标检测\yolo3-keras-master/VOCdevkit/VOC2007/JPEGImages/11.jpg 188,259,334,321,0
+G:\目标检测\yolo3-keras-master/VOCdevkit/VOC2007/JPEGImages/12.jpg 184,279,295,323,0
+G:\目标检测\yolo3-keras-master/VOCdevkit/VOC2007/JPEGImages/13.jpg 173,207,262,238,0
+G:\目标检测\yolo3-keras-master/VOCdevkit/VOC2007/JPEGImages/14.jpg 152,124,254,158,0
